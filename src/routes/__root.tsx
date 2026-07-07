@@ -19,8 +19,6 @@ import "@fontsource/plus-jakarta-sans/800.css";
 import { AppProvider } from "@/lib/store/AppContext";
 import { Layout } from "@/components/layout/Layout";
 import { Toaster } from "@/components/ui/sonner";
-import { SettingsDebugPanel } from "@/components/debug/SettingsDebugPanel";
-
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -134,7 +132,6 @@ function RootComponent() {
       <AppProvider>
         <Layout />
         <Toaster position="bottom-right" richColors closeButton />
-        <SettingsDebugPanel />
       </AppProvider>
     </QueryClientProvider>
   );
