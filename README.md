@@ -121,6 +121,7 @@ bun run format
 
 ## 👨‍💻 Author
 **Sathish Kumar B**
+
 🔗 GitHub: [github.com/Sathish292004](https://github.com/Sathish292004)
 
 ---
