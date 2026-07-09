@@ -323,9 +323,9 @@ function Categories() {
               className={`group block aspect-square overflow-hidden rounded-3xl bg-gradient-to-br ${palette[i % palette.length]} p-5 transition hover:-translate-y-1 shadow-card hover:shadow-soft`}
             >
               <div className="flex h-full flex-col justify-between">
-                <div className="h-12 w-12 rounded-2xl bg-background/60 backdrop-blur flex items-center justify-center text-xl">
-                  {["👟", "👕", "⌚", "🎧", "🎒", "👓"][i]}
-                </div>
+                  <div className="h-12 w-12 rounded-2xl bg-background/60 backdrop-blur flex items-center justify-center text-xl">
+                    {c.icon || "📦"}
+                  </div>
                 <div>
                   <p className="text-sm font-bold">{c.name}</p>
                   <p className="text-xs text-muted-foreground capitalize">{c.slug}</p>
